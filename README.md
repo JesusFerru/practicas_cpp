@@ -6,18 +6,24 @@ Repositorio donde se subirán ejercicios de ejemplo de cpp (conceptos básicos, 
 Se llevará a cabo los ejercicios prácticos de la ayudantía de la materia de Estructura de Datos.
 
 Para usar C++ en VSC necesitaremos lo siguiente:
-    1) Visual Studio Code (Editor de texto/código fácil e intuitivo)
+
+1) Visual Studio Code (Editor de texto/código fácil e intuitivo)
         
-        * Si ya tienes otro editor (Dev++, CodeBlocks, VS2022, c++ online, etc), no hay ningun problema ya que igual podrás usarlo para los programas que vamos a realizar.
+        * Si ya tienes otro editor (Dev++, CodeBlocks, VS2022, c++ online, etc), no hay ningun problema 
+        ya que igual podrás usarlo para los programas que vamos a realizar.
 
-    2) Compilador g++ (Es un conmpilador, parte del conjunto de herramienta de GNU Compiler Collection "GCC".)
+2) Compilador g++ (Es un conmpilador, parte del conjunto de herramienta de GNU Compiler Collection "GCC".)
 
-        * El uso de g++ permite a los programadores compilar sus programas C++ en código de máquina ejecutable, que puede ser ejecutado en cualquier sistema operativo compatible con el compilador. 
-        * Además, g++ ofrece muchas características avanzadas, como optimización de código, compatibilidad con múltiples plataformas y una amplia variedad de opciones de línea de comandos para personalizar el proceso de compilación.
+        * El uso de g++ permite a los programadores compilar sus programas C++ en código de máquina ejecutable, 
+        que puede ser ejecutado en cualquier sistema operativo compatible con el compilador. 
+
+        * Además, g++ ofrece muchas características avanzadas, como optimización de código, compatibilidad con 
+        múltiples plataformas y una amplia variedad de opciones de línea de comandos para personalizar el proceso de compilación.
 
 Pasos para instalar g++:
 
 1. Verifica que no tengas g++ instalado en tu sistema. Puedes hacerlo escribiendo el comando g++ --version en la terminal y presionando Enter. Si g++ no está instalado, verás un mensaje de error.
+    g++ --version
 
 2. Si no tienes g++ instalado, instálalo en tu sistema. La forma de hacerlo varía dependiendo del sistema operativo que estés utilizando. Aquí te mostramos cómo hacerlo en algunos sistemas:
 
@@ -40,9 +46,9 @@ c) En Windows, puedes instalar g++ como parte del paquete MinGW. Para hacerlo, s
 
 Los comandos que necesitarás para hacerlo son 2 y son los siguientes:
 
-    a) g++ -o ejemplo ejemplo.cpp           
+    g++ -o ejemplo ejemplo.cpp           
 <Este comando compilara el programa ".cpp" y creará una versión ejecutable para probarlo en la terminal de vsc>
 
-    b) ./ejemplo                            
+    ./ejemplo                            
 <Con este comando ejecutas el ".exe" creado a partir del anterior comando, ya con eso puedes interactuar con tu programa creado>
 
