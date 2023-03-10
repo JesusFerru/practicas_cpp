@@ -1,5 +1,6 @@
 #include <iostream>
 #include "stdio.h"
+#include "conio.h"
 using namespace std;
 
 int main()
@@ -10,5 +11,7 @@ int main()
     cin>>n;
     cout<<"Tu numero es: "<<n<<endl<<"Gracias por participar!\n";
 
-//    system("pause");
+
+    getch();
+    return 0;
 }
